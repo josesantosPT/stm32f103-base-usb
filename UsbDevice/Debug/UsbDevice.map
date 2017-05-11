@@ -1,0 +1,1680 @@
+
+Allocating common symbols
+Common symbol       size              file
+
+SaveRState          0x2               src\usb_int.o
+HSEStartUpStatus    0x1               src\hw_config.o
+SaveState           0x2               src\usb_init.o
+Receive_length      0x4               src\usb_endp.o
+wIstr               0x2               src\usb_istr.o
+pProperty           0x4               src\usb_init.o
+EPindex             0x1               src\usb_init.o
+SaveTState          0x2               src\usb_int.o
+Device_Info         0x1c              src\usb_init.o
+pUser_Standard_Requests
+                    0x4               src\usb_init.o
+Receive_Buffer      0x40              src\hw_config.o
+StatusInfo          0x2               src\usb_core.o
+pInformation        0x4               src\usb_init.o
+ResumeS             0x2               src\usb_pwr.o
+EP                  0x20              src\usb_pwr.o
+EXTI_InitStructure  0x8               src\hw_config.o
+Send_Buffer         0x40              src\main.o
+Send_length         0x4               src\hw_config.o
+wInterrupt_Mask     0x2               src\usb_init.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 e:/program files/truestudio for arm 5.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/armv7-m/crti.o
+ .data          0x00000000        0x0 e:/program files/truestudio for arm 5.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/armv7-m/crti.o
+ .bss           0x00000000        0x0 e:/program files/truestudio for arm 5.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/armv7-m/crti.o
+ .data          0x00000000        0x4 e:/program files/truestudio for arm 5.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/armv7-m/crtbegin.o
+ .text          0x00000000        0x0 src\usb_sil.o
+ .data          0x00000000        0x0 src\usb_sil.o
+ .bss           0x00000000        0x0 src\usb_sil.o
+ .text.USB_SIL_Write
+                0x00000000       0x4c src\usb_sil.o
+ .text.USB_SIL_Read
+                0x00000000       0x4c src\usb_sil.o
+ .text          0x00000000        0x0 src\usb_regs.o
+ .data          0x00000000        0x0 src\usb_regs.o
+ .bss           0x00000000        0x0 src\usb_regs.o
+ .text.SetCNTR  0x00000000       0x20 src\usb_regs.o
+ .text.GetCNTR  0x00000000       0x18 src\usb_regs.o
+ .text.SetISTR  0x00000000       0x20 src\usb_regs.o
+ .text.GetISTR  0x00000000       0x18 src\usb_regs.o
+ .text.GetFNR   0x00000000       0x18 src\usb_regs.o
+ .text.SetDADDR
+                0x00000000       0x20 src\usb_regs.o
+ .text.GetDADDR
+                0x00000000       0x18 src\usb_regs.o
+ .text.GetBTABLE
+                0x00000000       0x18 src\usb_regs.o
+ .text.SetENDPOINT
+                0x00000000       0x28 src\usb_regs.o
+ .text.GetENDPOINT
+                0x00000000       0x28 src\usb_regs.o
+ .text.GetEPType
+                0x00000000       0x2c src\usb_regs.o
+ .text.SetDouBleBuffEPStall
+                0x00000000       0x58 src\usb_regs.o
+ .text.GetEPTxStatus
+                0x00000000       0x2c src\usb_regs.o
+ .text.GetEPRxStatus
+                0x00000000       0x2c src\usb_regs.o
+ .text.SetEP_KIND
+                0x00000000       0x50 src\usb_regs.o
+ .text.ClearEP_KIND
+                0x00000000       0x50 src\usb_regs.o
+ .text.Set_Status_Out
+                0x00000000       0x50 src\usb_regs.o
+ .text.SetEPDoubleBuff
+                0x00000000       0x50 src\usb_regs.o
+ .text.ClearEPDoubleBuff
+                0x00000000       0x50 src\usb_regs.o
+ .text.GetTxStallStatus
+                0x00000000       0x34 src\usb_regs.o
+ .text.GetRxStallStatus
+                0x00000000       0x38 src\usb_regs.o
+ .text.ClearEP_CTR_RX
+                0x00000000       0x3c src\usb_regs.o
+ .text.ClearEP_CTR_TX
+                0x00000000       0x3c src\usb_regs.o
+ .text.ToggleDTOG_RX
+                0x00000000       0x44 src\usb_regs.o
+ .text.ToggleDTOG_TX
+                0x00000000       0x44 src\usb_regs.o
+ .text.SetEPAddress
+                0x00000000       0x4c src\usb_regs.o
+ .text.GetEPAddress
+                0x00000000       0x2c src\usb_regs.o
+ .text.SetEPCountRxReg
+                0x00000000       0x64 src\usb_regs.o
+ .text.GetEPTxCount
+                0x00000000       0x3c src\usb_regs.o
+ .text.SetEPDblBuffAddr
+                0x00000000       0x64 src\usb_regs.o
+ .text.SetEPDblBuf0Addr
+                0x00000000       0x40 src\usb_regs.o
+ .text.SetEPDblBuf1Addr
+                0x00000000       0x40 src\usb_regs.o
+ .text.GetEPDblBuf0Addr
+                0x00000000       0x38 src\usb_regs.o
+ .text.GetEPDblBuf1Addr
+                0x00000000       0x38 src\usb_regs.o
+ .text.SetEPDblBuffCount
+                0x00000000      0x138 src\usb_regs.o
+ .text.SetEPDblBuf0Count
+                0x00000000       0xac src\usb_regs.o
+ .text.SetEPDblBuf1Count
+                0x00000000       0xac src\usb_regs.o
+ .text.GetEPDblBuf0Count
+                0x00000000       0x3c src\usb_regs.o
+ .text.GetEPDblBuf1Count
+                0x00000000       0x3c src\usb_regs.o
+ .text.GetEPDblBufDir
+                0x00000000       0x6c src\usb_regs.o
+ .text.FreeUserBuffer
+                0x00000000       0x84 src\usb_regs.o
+ .text.ToWord   0x00000000       0x2c src\usb_regs.o
+ .text          0x00000000        0x0 src\usb_pwr.o
+ .data          0x00000000        0x0 src\usb_pwr.o
+ .bss           0x00000000        0x0 src\usb_pwr.o
+ .text.PowerOff
+                0x00000000       0x2c src\usb_pwr.o
+ .text          0x00000000        0x0 src\usb_prop.o
+ .data          0x00000000        0x0 src\usb_prop.o
+ .bss           0x00000000        0x0 src\usb_prop.o
+ .text          0x00000000        0x0 src\usb_mem.o
+ .data          0x00000000        0x0 src\usb_mem.o
+ .bss           0x00000000        0x0 src\usb_mem.o
+ .text          0x00000000        0x0 src\usb_istr.o
+ .data          0x00000000        0x0 src\usb_istr.o
+ .bss           0x00000000        0x0 src\usb_istr.o
+ .text          0x00000000        0x0 src\usb_int.o
+ .data          0x00000000        0x0 src\usb_int.o
+ .bss           0x00000000        0x0 src\usb_int.o
+ .text.CTR_HP   0x00000000       0xf0 src\usb_int.o
+ .text          0x00000000        0x0 src\usb_init.o
+ .data          0x00000000        0x0 src\usb_init.o
+ .bss           0x00000000        0x0 src\usb_init.o
+ .text          0x00000000        0x0 src\usb_endp.o
+ .data          0x00000000        0x0 src\usb_endp.o
+ .bss           0x00000000        0x0 src\usb_endp.o
+ .text          0x00000000        0x0 src\usb_desc.o
+ .data          0x00000000        0x0 src\usb_desc.o
+ .bss           0x00000000        0x0 src\usb_desc.o
+ .text          0x00000000        0x0 src\usb_core.o
+ .data          0x00000000        0x0 src\usb_core.o
+ .bss           0x00000000        0x0 src\usb_core.o
+ .text          0x00000000        0x0 src\system_stm32f10x.o
+ .data          0x00000000        0x0 src\system_stm32f10x.o
+ .bss           0x00000000        0x0 src\system_stm32f10x.o
+ .data.SystemCoreClock
+                0x00000000        0x4 src\system_stm32f10x.o
+ .data.AHBPrescTable
+                0x00000000       0x10 src\system_stm32f10x.o
+ .text.SystemCoreClockUpdate
+                0x00000000       0xd8 src\system_stm32f10x.o
+ .text          0x00000000        0x0 src\syscalls.o
+ .data          0x00000000        0x0 src\syscalls.o
+ .bss           0x00000000        0x0 src\syscalls.o
+ .text._sbrk    0x00000000       0x40 src\syscalls.o
+ .text.link     0x00000000       0x1c src\syscalls.o
+ .text._close   0x00000000       0x18 src\syscalls.o
+ .text._fstat   0x00000000       0x20 src\syscalls.o
+ .text._isatty  0x00000000       0x18 src\syscalls.o
+ .text._lseek   0x00000000       0x1c src\syscalls.o
+ .text._read    0x00000000       0x1c src\syscalls.o
+ .text._write   0x00000000       0x1c src\syscalls.o
+ .text.abort    0x00000000        0x8 src\syscalls.o
+ .bss.heap.5079
+                0x00000000        0x4 src\syscalls.o
+ .debug_info    0x00000000      0x3ee src\syscalls.o
+ .debug_abbrev  0x00000000       0xe2 src\syscalls.o
+ .debug_aranges
+                0x00000000       0x60 src\syscalls.o
+ .debug_ranges  0x00000000       0x50 src\syscalls.o
+ .debug_line    0x00000000      0x14b src\syscalls.o
+ .debug_str     0x00000000      0x2b2 src\syscalls.o
+ .comment       0x00000000       0x83 src\syscalls.o
+ .ARM.attributes
+                0x00000000       0x33 src\syscalls.o
+ .debug_frame   0x00000000      0x108 src\syscalls.o
+ .text          0x00000000        0x0 src\stm32f10x_rcc.o
+ .data          0x00000000        0x0 src\stm32f10x_rcc.o
+ .bss           0x00000000        0x0 src\stm32f10x_rcc.o
+ .data.APBAHBPrescTable
+                0x00000000       0x10 src\stm32f10x_rcc.o
+ .data.ADCPrescTable
+                0x00000000        0x4 src\stm32f10x_rcc.o
+ .text.RCC_AdjustHSICalibrationValue
+                0x00000000       0x3c src\stm32f10x_rcc.o
+ .text.RCC_HSICmd
+                0x00000000       0x20 src\stm32f10x_rcc.o
+ .text.RCC_ITConfig
+                0x00000000       0x48 src\stm32f10x_rcc.o
+ .text.RCC_ADCCLKConfig
+                0x00000000       0x38 src\stm32f10x_rcc.o
+ .text.RCC_LSEConfig
+                0x00000000       0x40 src\stm32f10x_rcc.o
+ .text.RCC_LSICmd
+                0x00000000       0x20 src\stm32f10x_rcc.o
+ .text.RCC_RTCCLKConfig
+                0x00000000       0x24 src\stm32f10x_rcc.o
+ .text.RCC_RTCCLKCmd
+                0x00000000       0x20 src\stm32f10x_rcc.o
+ .text.RCC_GetClocksFreq
+                0x00000000      0x164 src\stm32f10x_rcc.o
+ .text.RCC_AHBPeriphClockCmd
+                0x00000000       0x3c src\stm32f10x_rcc.o
+ .text.RCC_APB2PeriphResetCmd
+                0x00000000       0x3c src\stm32f10x_rcc.o
+ .text.RCC_APB1PeriphResetCmd
+                0x00000000       0x3c src\stm32f10x_rcc.o
+ .text.RCC_BackupResetCmd
+                0x00000000       0x20 src\stm32f10x_rcc.o
+ .text.RCC_ClockSecuritySystemCmd
+                0x00000000       0x20 src\stm32f10x_rcc.o
+ .text.RCC_MCOConfig
+                0x00000000       0x20 src\stm32f10x_rcc.o
+ .text.RCC_ClearFlag
+                0x00000000       0x1c src\stm32f10x_rcc.o
+ .text.RCC_GetITStatus
+                0x00000000       0x38 src\stm32f10x_rcc.o
+ .text.RCC_ClearITPendingBit
+                0x00000000       0x20 src\stm32f10x_rcc.o
+ .text          0x00000000        0x0 src\stm32f10x_pwr.o
+ .data          0x00000000        0x0 src\stm32f10x_pwr.o
+ .bss           0x00000000        0x0 src\stm32f10x_pwr.o
+ .text.PWR_DeInit
+                0x00000000       0x1c src\stm32f10x_pwr.o
+ .text.PWR_BackupAccessCmd
+                0x00000000       0x20 src\stm32f10x_pwr.o
+ .text.PWR_PVDCmd
+                0x00000000       0x20 src\stm32f10x_pwr.o
+ .text.PWR_PVDLevelConfig
+                0x00000000       0x38 src\stm32f10x_pwr.o
+ .text.PWR_WakeUpPinCmd
+                0x00000000       0x20 src\stm32f10x_pwr.o
+ .text.PWR_EnterSTOPMode
+                0x00000000       0x64 src\stm32f10x_pwr.o
+ .text.PWR_EnterSTANDBYMode
+                0x00000000       0x3c src\stm32f10x_pwr.o
+ .text.PWR_GetFlagStatus
+                0x00000000       0x34 src\stm32f10x_pwr.o
+ .text.PWR_ClearFlag
+                0x00000000       0x24 src\stm32f10x_pwr.o
+ .debug_info    0x00000000      0x486 src\stm32f10x_pwr.o
+ .debug_abbrev  0x00000000      0x181 src\stm32f10x_pwr.o
+ .debug_aranges
+                0x00000000       0x60 src\stm32f10x_pwr.o
+ .debug_ranges  0x00000000       0x50 src\stm32f10x_pwr.o
+ .debug_line    0x00000000      0x1f1 src\stm32f10x_pwr.o
+ .debug_str     0x00000000      0x344 src\stm32f10x_pwr.o
+ .comment       0x00000000       0x83 src\stm32f10x_pwr.o
+ .ARM.attributes
+                0x00000000       0x33 src\stm32f10x_pwr.o
+ .debug_frame   0x00000000      0x108 src\stm32f10x_pwr.o
+ .text          0x00000000        0x0 src\stm32f10x_gpio.o
+ .data          0x00000000        0x0 src\stm32f10x_gpio.o
+ .bss           0x00000000        0x0 src\stm32f10x_gpio.o
+ .text.GPIO_DeInit
+                0x00000000       0xe4 src\stm32f10x_gpio.o
+ .text.GPIO_AFIODeInit
+                0x00000000       0x18 src\stm32f10x_gpio.o
+ .text.GPIO_StructInit
+                0x00000000       0x28 src\stm32f10x_gpio.o
+ .text.GPIO_ReadInputDataBit
+                0x00000000       0x34 src\stm32f10x_gpio.o
+ .text.GPIO_ReadInputData
+                0x00000000       0x1c src\stm32f10x_gpio.o
+ .text.GPIO_ReadOutputDataBit
+                0x00000000       0x34 src\stm32f10x_gpio.o
+ .text.GPIO_ReadOutputData
+                0x00000000       0x1c src\stm32f10x_gpio.o
+ .text.GPIO_WriteBit
+                0x00000000       0x30 src\stm32f10x_gpio.o
+ .text.GPIO_Write
+                0x00000000       0x1c src\stm32f10x_gpio.o
+ .text.GPIO_PinLockConfig
+                0x00000000       0x44 src\stm32f10x_gpio.o
+ .text.GPIO_EventOutputConfig
+                0x00000000       0x48 src\stm32f10x_gpio.o
+ .text.GPIO_EventOutputCmd
+                0x00000000       0x20 src\stm32f10x_gpio.o
+ .text.GPIO_PinRemapConfig
+                0x00000000       0xe0 src\stm32f10x_gpio.o
+ .text.GPIO_EXTILineConfig
+                0x00000000       0x7c src\stm32f10x_gpio.o
+ .text.GPIO_ETH_MediaInterfaceConfig
+                0x00000000       0x1c src\stm32f10x_gpio.o
+ .text          0x00000000        0x0 src\stm32f10x_exti.o
+ .data          0x00000000        0x0 src\stm32f10x_exti.o
+ .bss           0x00000000        0x0 src\stm32f10x_exti.o
+ .text.EXTI_DeInit
+                0x00000000       0x34 src\stm32f10x_exti.o
+ .text.EXTI_StructInit
+                0x00000000       0x2c src\stm32f10x_exti.o
+ .text.EXTI_GenerateSWInterrupt
+                0x00000000       0x24 src\stm32f10x_exti.o
+ .text.EXTI_GetFlagStatus
+                0x00000000       0x34 src\stm32f10x_exti.o
+ .text.EXTI_ClearFlag
+                0x00000000       0x1c src\stm32f10x_exti.o
+ .text.EXTI_GetITStatus
+                0x00000000       0x48 src\stm32f10x_exti.o
+ .text          0x00000000        0x0 src\stm32_it.o
+ .data          0x00000000        0x0 src\stm32_it.o
+ .bss           0x00000000        0x0 src\stm32_it.o
+ .text          0x00000000        0x0 src\startup_stm32f10x_md.o
+ .data          0x00000000        0x0 src\startup_stm32f10x_md.o
+ .bss           0x00000000        0x0 src\startup_stm32f10x_md.o
+ .text          0x00000000        0x0 src\misc.o
+ .data          0x00000000        0x0 src\misc.o
+ .bss           0x00000000        0x0 src\misc.o
+ .text.NVIC_SetVectorTable
+                0x00000000       0x2c src\misc.o
+ .text.NVIC_SystemLPConfig
+                0x00000000       0x40 src\misc.o
+ .text.SysTick_CLKSourceConfig
+                0x00000000       0x38 src\misc.o
+ .text          0x00000000        0x0 src\main.o
+ .data          0x00000000        0x0 src\main.o
+ .bss           0x00000000        0x0 src\main.o
+ COMMON         0x00000000       0x40 src\main.o
+ .text          0x00000000        0x0 src\hw_config.o
+ .data          0x00000000        0x0 src\hw_config.o
+ .bss           0x00000000        0x0 src\hw_config.o
+ .text.Enter_LowPowerMode
+                0x00000000       0x18 src\hw_config.o
+ .text          0x00000000        0x0 e:/program files/truestudio for arm 5.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/armv7-m/crtend.o
+ .data          0x00000000        0x0 e:/program files/truestudio for arm 5.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/armv7-m/crtend.o
+ .bss           0x00000000        0x0 e:/program files/truestudio for arm 5.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/armv7-m/crtend.o
+ .eh_frame      0x00000000        0x4 e:/program files/truestudio for arm 5.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/armv7-m/crtend.o
+ .ARM.attributes
+                0x00000000       0x2d e:/program files/truestudio for arm 5.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/armv7-m/crtend.o
+ .text          0x00000000        0x0 e:/program files/truestudio for arm 5.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/armv7-m/crtn.o
+ .data          0x00000000        0x0 e:/program files/truestudio for arm 5.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/armv7-m/crtn.o
+ .bss           0x00000000        0x0 e:/program files/truestudio for arm 5.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/armv7-m/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00010000         xr
+RAM              0x20000000         0x00005000         xrw
+MEMORY_B1        0x60000000         0x00000000         xr
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD e:/program files/truestudio for arm 5.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/armv7-m/crti.o
+LOAD e:/program files/truestudio for arm 5.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/armv7-m/crtbegin.o
+LOAD src\usb_sil.o
+LOAD src\usb_regs.o
+LOAD src\usb_pwr.o
+LOAD src\usb_prop.o
+LOAD src\usb_mem.o
+LOAD src\usb_istr.o
+LOAD src\usb_int.o
+LOAD src\usb_init.o
+LOAD src\usb_endp.o
+LOAD src\usb_desc.o
+LOAD src\usb_core.o
+LOAD src\system_stm32f10x.o
+LOAD src\syscalls.o
+LOAD src\stm32f10x_rcc.o
+LOAD src\stm32f10x_pwr.o
+LOAD src\stm32f10x_gpio.o
+LOAD src\stm32f10x_exti.o
+LOAD src\stm32_it.o
+LOAD src\startup_stm32f10x_md.o
+LOAD src\misc.o
+LOAD src\main.o
+LOAD src\hw_config.o
+START GROUP
+LOAD e:/program files/truestudio for arm 5.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/../../../../arm-atollic-eabi/lib/armv7-m\libc_s.a
+LOAD e:/program files/truestudio for arm 5.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/../../../../arm-atollic-eabi/lib/armv7-m\libm.a
+END GROUP
+                0x00001000                malloc_getpagesize_P = 0x1000
+START GROUP
+LOAD e:/program files/truestudio for arm 5.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/armv7-m\libgcc.a
+LOAD e:/program files/truestudio for arm 5.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/../../../../arm-atollic-eabi/lib/armv7-m\libc.a
+END GROUP
+LOAD e:/program files/truestudio for arm 5.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/armv7-m/crtend.o
+LOAD e:/program files/truestudio for arm 5.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/armv7-m/crtn.o
+                0x20005000                _estack = 0x20005000
+                0x00000000                _Min_Heap_Size = 0x0
+                0x00000100                _Min_Stack_Size = 0x100
+
+.isr_vector     0x08000000      0x10c
+                0x08000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x10c src\startup_stm32f10x_md.o
+                0x08000000                g_pfnVectors
+                0x0800010c                . = ALIGN (0x4)
+
+.text           0x0800010c     0x2ebc
+                0x0800010c                . = ALIGN (0x4)
+ *(.text)
+ .text          0x0800010c       0x40 e:/program files/truestudio for arm 5.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/armv7-m/crtbegin.o
+ *(.text*)
+ .text.USB_SIL_Init
+                0x0800014c       0x34 src\usb_sil.o
+                0x0800014c                USB_SIL_Init
+ .text.SetBTABLE
+                0x08000180       0x24 src\usb_regs.o
+                0x08000180                SetBTABLE
+ .text.SetEPType
+                0x080001a4       0x48 src\usb_regs.o
+                0x080001a4                SetEPType
+ .text.SetEPTxStatus
+                0x080001ec       0x6c src\usb_regs.o
+                0x080001ec                SetEPTxStatus
+ .text.SetEPRxStatus
+                0x08000258       0x6c src\usb_regs.o
+                0x08000258                SetEPRxStatus
+ .text.SetEPTxValid
+                0x080002c4       0x50 src\usb_regs.o
+                0x080002c4                SetEPTxValid
+ .text.SetEPRxValid
+                0x08000314       0x50 src\usb_regs.o
+                0x08000314                SetEPRxValid
+ .text.Clear_Status_Out
+                0x08000364       0x50 src\usb_regs.o
+                0x08000364                Clear_Status_Out
+ .text.ClearDTOG_RX
+                0x080003b4       0x5c src\usb_regs.o
+                0x080003b4                ClearDTOG_RX
+ .text.ClearDTOG_TX
+                0x08000410       0x5c src\usb_regs.o
+                0x08000410                ClearDTOG_TX
+ .text.SetEPTxAddr
+                0x0800046c       0x40 src\usb_regs.o
+                0x0800046c                SetEPTxAddr
+ .text.SetEPRxAddr
+                0x080004ac       0x40 src\usb_regs.o
+                0x080004ac                SetEPRxAddr
+ .text.GetEPTxAddr
+                0x080004ec       0x38 src\usb_regs.o
+                0x080004ec                GetEPTxAddr
+ .text.GetEPRxAddr
+                0x08000524       0x38 src\usb_regs.o
+                0x08000524                GetEPRxAddr
+ .text.SetEPTxCount
+                0x0800055c       0x38 src\usb_regs.o
+                0x0800055c                SetEPTxCount
+ .text.SetEPRxCount
+                0x08000594       0x84 src\usb_regs.o
+                0x08000594                SetEPRxCount
+ .text.GetEPRxCount
+                0x08000618       0x3c src\usb_regs.o
+                0x08000618                GetEPRxCount
+ .text.ByteSwap
+                0x08000654       0x30 src\usb_regs.o
+                0x08000654                ByteSwap
+ .text.PowerOn  0x08000684       0x50 src\usb_pwr.o
+                0x08000684                PowerOn
+ .text.Suspend  0x080006d4      0x16c src\usb_pwr.o
+                0x080006d4                Suspend
+ .text.Resume_Init
+                0x08000840       0x30 src\usb_pwr.o
+                0x08000840                Resume_Init
+ .text.Resume   0x08000870      0x118 src\usb_pwr.o
+                0x08000870                Resume
+ .text.Virtual_Com_Port_init
+                0x08000988       0x28 src\usb_prop.o
+                0x08000988                Virtual_Com_Port_init
+ .text.Virtual_Com_Port_Reset
+                0x080009b0       0xf0 src\usb_prop.o
+                0x080009b0                Virtual_Com_Port_Reset
+ .text.Virtual_Com_Port_SetConfiguration
+                0x08000aa0       0x2c src\usb_prop.o
+                0x08000aa0                Virtual_Com_Port_SetConfiguration
+ .text.Virtual_Com_Port_SetDeviceAddress
+                0x08000acc       0x18 src\usb_prop.o
+                0x08000acc                Virtual_Com_Port_SetDeviceAddress
+ .text.Virtual_Com_Port_Status_In
+                0x08000ae4       0x20 src\usb_prop.o
+                0x08000ae4                Virtual_Com_Port_Status_In
+ .text.Virtual_Com_Port_Status_Out
+                0x08000b04        0xc src\usb_prop.o
+                0x08000b04                Virtual_Com_Port_Status_Out
+ .text.Virtual_Com_Port_Data_Setup
+                0x08000b10       0x80 src\usb_prop.o
+                0x08000b10                Virtual_Com_Port_Data_Setup
+ .text.Virtual_Com_Port_NoData_Setup
+                0x08000b90       0x40 src\usb_prop.o
+                0x08000b90                Virtual_Com_Port_NoData_Setup
+ .text.Virtual_Com_Port_GetDeviceDescriptor
+                0x08000bd0       0x24 src\usb_prop.o
+                0x08000bd0                Virtual_Com_Port_GetDeviceDescriptor
+ .text.Virtual_Com_Port_GetConfigDescriptor
+                0x08000bf4       0x24 src\usb_prop.o
+                0x08000bf4                Virtual_Com_Port_GetConfigDescriptor
+ .text.Virtual_Com_Port_GetStringDescriptor
+                0x08000c18       0x40 src\usb_prop.o
+                0x08000c18                Virtual_Com_Port_GetStringDescriptor
+ .text.Virtual_Com_Port_Get_Interface_Setting
+                0x08000c58       0x30 src\usb_prop.o
+                0x08000c58                Virtual_Com_Port_Get_Interface_Setting
+ .text.Virtual_Com_Port_GetLineCoding
+                0x08000c88       0x34 src\usb_prop.o
+                0x08000c88                Virtual_Com_Port_GetLineCoding
+ .text.Virtual_Com_Port_SetLineCoding
+                0x08000cbc       0x34 src\usb_prop.o
+                0x08000cbc                Virtual_Com_Port_SetLineCoding
+ .text.UserToPMABufferCopy
+                0x08000cf0       0x74 src\usb_mem.o
+                0x08000cf0                UserToPMABufferCopy
+ .text.PMAToUserBufferCopy
+                0x08000d64       0x5c src\usb_mem.o
+                0x08000d64                PMAToUserBufferCopy
+ .text.USB_Istr
+                0x08000dc0      0x224 src\usb_istr.o
+                0x08000dc0                USB_Istr
+ .text.CTR_LP   0x08000fe4      0x308 src\usb_int.o
+                0x08000fe4                CTR_LP
+ .text.USB_Init
+                0x080012ec       0x40 src\usb_init.o
+                0x080012ec                USB_Init
+ .text.EP1_IN_Callback
+                0x0800132c       0x18 src\usb_endp.o
+                0x0800132c                EP1_IN_Callback
+ .text.EP3_OUT_Callback
+                0x08001344       0x38 src\usb_endp.o
+                0x08001344                EP3_OUT_Callback
+ .text.Standard_GetConfiguration
+                0x0800137c       0x3c src\usb_core.o
+                0x0800137c                Standard_GetConfiguration
+ .text.Standard_SetConfiguration
+                0x080013b8       0x50 src\usb_core.o
+                0x080013b8                Standard_SetConfiguration
+ .text.Standard_GetInterface
+                0x08001408       0x3c src\usb_core.o
+                0x08001408                Standard_GetInterface
+ .text.Standard_SetInterface
+                0x08001444       0x8c src\usb_core.o
+                0x08001444                Standard_SetInterface
+ .text.Standard_GetStatus
+                0x080014d0      0x138 src\usb_core.o
+                0x080014d0                Standard_GetStatus
+ .text.Standard_ClearFeature
+                0x08001608      0x1d8 src\usb_core.o
+                0x08001608                Standard_ClearFeature
+ .text.Standard_SetEndPointFeature
+                0x080017e0      0x118 src\usb_core.o
+                0x080017e0                Standard_SetEndPointFeature
+ .text.Standard_SetDeviceFeature
+                0x080018f8       0x2c src\usb_core.o
+                0x080018f8                Standard_SetDeviceFeature
+ .text.Standard_GetDescriptorData
+                0x08001924       0x48 src\usb_core.o
+                0x08001924                Standard_GetDescriptorData
+ .text.DataStageOut
+                0x0800196c      0x104 src\usb_core.o
+ .text.DataStageIn
+                0x08001a70      0x10c src\usb_core.o
+ .text.NoData_Setup0
+                0x08001b7c      0x194 src\usb_core.o
+ .text.Data_Setup0
+                0x08001d10      0x324 src\usb_core.o
+ .text.Setup0_Process
+                0x08002034       0xd8 src\usb_core.o
+                0x08002034                Setup0_Process
+ .text.In0_Process
+                0x0800210c       0x90 src\usb_core.o
+                0x0800210c                In0_Process
+ .text.Out0_Process
+                0x0800219c       0x74 src\usb_core.o
+                0x0800219c                Out0_Process
+ .text.Post0_Process
+                0x08002210       0x50 src\usb_core.o
+                0x08002210                Post0_Process
+ .text.SetDeviceAddress
+                0x08002260       0x7c src\usb_core.o
+                0x08002260                SetDeviceAddress
+ .text.NOP_Process
+                0x080022dc        0xc src\usb_core.o
+                0x080022dc                NOP_Process
+ .text.SystemInit
+                0x080022e8       0x68 src\system_stm32f10x.o
+                0x080022e8                SystemInit
+ .text.SetSysClock
+                0x08002350        0xc src\system_stm32f10x.o
+ .text.SetSysClockTo72
+                0x0800235c      0x100 src\system_stm32f10x.o
+ .text.RCC_DeInit
+                0x0800245c       0x5c src\stm32f10x_rcc.o
+                0x0800245c                RCC_DeInit
+ .text.RCC_HSEConfig
+                0x080024b8       0x5c src\stm32f10x_rcc.o
+                0x080024b8                RCC_HSEConfig
+ .text.RCC_WaitForHSEStartUp
+                0x08002514       0x50 src\stm32f10x_rcc.o
+                0x08002514                RCC_WaitForHSEStartUp
+ .text.RCC_PLLConfig
+                0x08002564       0x3c src\stm32f10x_rcc.o
+                0x08002564                RCC_PLLConfig
+ .text.RCC_PLLCmd
+                0x080025a0       0x20 src\stm32f10x_rcc.o
+                0x080025a0                RCC_PLLCmd
+ .text.RCC_SYSCLKConfig
+                0x080025c0       0x38 src\stm32f10x_rcc.o
+                0x080025c0                RCC_SYSCLKConfig
+ .text.RCC_GetSYSCLKSource
+                0x080025f8       0x20 src\stm32f10x_rcc.o
+                0x080025f8                RCC_GetSYSCLKSource
+ .text.RCC_HCLKConfig
+                0x08002618       0x38 src\stm32f10x_rcc.o
+                0x08002618                RCC_HCLKConfig
+ .text.RCC_PCLK1Config
+                0x08002650       0x38 src\stm32f10x_rcc.o
+                0x08002650                RCC_PCLK1Config
+ .text.RCC_PCLK2Config
+                0x08002688       0x38 src\stm32f10x_rcc.o
+                0x08002688                RCC_PCLK2Config
+ .text.RCC_USBCLKConfig
+                0x080026c0       0x1c src\stm32f10x_rcc.o
+                0x080026c0                RCC_USBCLKConfig
+ .text.RCC_APB2PeriphClockCmd
+                0x080026dc       0x3c src\stm32f10x_rcc.o
+                0x080026dc                RCC_APB2PeriphClockCmd
+ .text.RCC_APB1PeriphClockCmd
+                0x08002718       0x3c src\stm32f10x_rcc.o
+                0x08002718                RCC_APB1PeriphClockCmd
+ .text.RCC_GetFlagStatus
+                0x08002754       0x74 src\stm32f10x_rcc.o
+                0x08002754                RCC_GetFlagStatus
+ .text.GPIO_Init
+                0x080027c8      0x178 src\stm32f10x_gpio.o
+                0x080027c8                GPIO_Init
+ .text.GPIO_SetBits
+                0x08002940       0x1c src\stm32f10x_gpio.o
+                0x08002940                GPIO_SetBits
+ .text.GPIO_ResetBits
+                0x0800295c       0x1c src\stm32f10x_gpio.o
+                0x0800295c                GPIO_ResetBits
+ .text.EXTI_Init
+                0x08002978       0xdc src\stm32f10x_exti.o
+                0x08002978                EXTI_Init
+ .text.EXTI_ClearITPendingBit
+                0x08002a54       0x1c src\stm32f10x_exti.o
+                0x08002a54                EXTI_ClearITPendingBit
+ .text.NMI_Handler
+                0x08002a70        0xc src\stm32_it.o
+                0x08002a70                NMI_Handler
+ .text.HardFault_Handler
+                0x08002a7c        0x8 src\stm32_it.o
+                0x08002a7c                HardFault_Handler
+ .text.MemManage_Handler
+                0x08002a84        0x8 src\stm32_it.o
+                0x08002a84                MemManage_Handler
+ .text.BusFault_Handler
+                0x08002a8c        0x8 src\stm32_it.o
+                0x08002a8c                BusFault_Handler
+ .text.UsageFault_Handler
+                0x08002a94        0x8 src\stm32_it.o
+                0x08002a94                UsageFault_Handler
+ .text.SVC_Handler
+                0x08002a9c        0xc src\stm32_it.o
+                0x08002a9c                SVC_Handler
+ .text.DebugMon_Handler
+                0x08002aa8        0xc src\stm32_it.o
+                0x08002aa8                DebugMon_Handler
+ .text.PendSV_Handler
+                0x08002ab4        0xc src\stm32_it.o
+                0x08002ab4                PendSV_Handler
+ .text.SysTick_Handler
+                0x08002ac0        0xc src\stm32_it.o
+                0x08002ac0                SysTick_Handler
+ .text.USB_LP_CAN1_RX0_IRQHandler
+                0x08002acc        0xc src\stm32_it.o
+                0x08002acc                USB_LP_CAN1_RX0_IRQHandler
+ .text.USBWakeUp_IRQHandler
+                0x08002ad8       0x10 src\stm32_it.o
+                0x08002ad8                USBWakeUp_IRQHandler
+ .text.Default_Reset_Handler
+                0x08002ae8       0x60 src\startup_stm32f10x_md.o
+                0x08002ae8                Default_Reset_Handler
+                0x08002ae8                Reset_Handler
+ .text.Default_Handler
+                0x08002b48        0x8 src\startup_stm32f10x_md.o
+                0x08002b48                EXTI2_IRQHandler
+                0x08002b48                TIM1_CC_IRQHandler
+                0x08002b48                PVD_IRQHandler
+                0x08002b48                EXTI3_IRQHandler
+                0x08002b48                EXTI0_IRQHandler
+                0x08002b48                I2C2_EV_IRQHandler
+                0x08002b48                ADC1_2_IRQHandler
+                0x08002b48                SPI1_IRQHandler
+                0x08002b48                TAMPER_IRQHandler
+                0x08002b48                DMA1_Channel4_IRQHandler
+                0x08002b48                USART3_IRQHandler
+                0x08002b48                RTC_IRQHandler
+                0x08002b48                DMA1_Channel7_IRQHandler
+                0x08002b48                CAN1_RX1_IRQHandler
+                0x08002b48                TIM4_IRQHandler
+                0x08002b48                I2C1_EV_IRQHandler
+                0x08002b48                DMA1_Channel6_IRQHandler
+                0x08002b48                TIM3_IRQHandler
+                0x08002b48                RCC_IRQHandler
+                0x08002b48                TIM1_TRG_COM_IRQHandler
+                0x08002b48                DMA1_Channel1_IRQHandler
+                0x08002b48                EXTI15_10_IRQHandler
+                0x08002b48                EXTI9_5_IRQHandler
+                0x08002b48                SPI2_IRQHandler
+                0x08002b48                DMA1_Channel5_IRQHandler
+                0x08002b48                EXTI4_IRQHandler
+                0x08002b48                USB_HP_CAN1_TX_IRQHandler
+                0x08002b48                DMA1_Channel3_IRQHandler
+                0x08002b48                TIM1_UP_IRQHandler
+                0x08002b48                WWDG_IRQHandler
+                0x08002b48                TIM2_IRQHandler
+                0x08002b48                TIM1_BRK_IRQHandler
+                0x08002b48                EXTI1_IRQHandler
+                0x08002b48                RTCAlarm_IRQHandler
+                0x08002b48                USART2_IRQHandler
+                0x08002b48                I2C2_ER_IRQHandler
+                0x08002b48                DMA1_Channel2_IRQHandler
+                0x08002b48                CAN1_SCE_IRQHandler
+                0x08002b48                FLASH_IRQHandler
+                0x08002b48                USART1_IRQHandler
+                0x08002b48                I2C1_ER_IRQHandler
+ .text.NVIC_PriorityGroupConfig
+                0x08002b50       0x24 src\misc.o
+                0x08002b50                NVIC_PriorityGroupConfig
+ .text.NVIC_Init
+                0x08002b74       0xc0 src\misc.o
+                0x08002b74                NVIC_Init
+ .text.SetSysClockTo72
+                0x08002c34       0x70 src\main.o
+                0x08002c34                SetSysClockTo72
+ .text.main     0x08002ca4       0xc8 src\main.o
+                0x08002ca4                main
+ .text.Set_System
+                0x08002d6c       0x58 src\hw_config.o
+                0x08002d6c                Set_System
+ .text.Set_USBClock
+                0x08002dc4       0x18 src\hw_config.o
+                0x08002dc4                Set_USBClock
+ .text.Leave_LowPowerMode
+                0x08002ddc       0x34 src\hw_config.o
+                0x08002ddc                Leave_LowPowerMode
+ .text.USB_Interrupts_Config
+                0x08002e10       0x3c src\hw_config.o
+                0x08002e10                USB_Interrupts_Config
+ .text.USB_Cable_Config
+                0x08002e4c       0x30 src\hw_config.o
+                0x08002e4c                USB_Cable_Config
+ .text.Get_SerialNum
+                0x08002e7c       0x54 src\hw_config.o
+                0x08002e7c                Get_SerialNum
+ .text.IntToUnicode
+                0x08002ed0       0x78 src\hw_config.o
+ .text.CDC_Send_DATA
+                0x08002f48       0x4c src\hw_config.o
+                0x08002f48                CDC_Send_DATA
+ .text.CDC_Receive_DATA
+                0x08002f94       0x1c src\hw_config.o
+                0x08002f94                CDC_Receive_DATA
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.eh_frame)
+ .eh_frame      0x08002fb0        0x0 e:/program files/truestudio for arm 5.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/armv7-m/crtbegin.o
+ *(.init)
+ .init          0x08002fb0        0x4 e:/program files/truestudio for arm 5.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/armv7-m/crti.o
+                0x08002fb0                _init
+ .init          0x08002fb4        0x8 e:/program files/truestudio for arm 5.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/armv7-m/crtn.o
+ *(.fini)
+ .fini          0x08002fbc        0x4 e:/program files/truestudio for arm 5.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/armv7-m/crti.o
+                0x08002fbc                _fini
+ .fini          0x08002fc0        0x8 e:/program files/truestudio for arm 5.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/armv7-m/crtn.o
+                0x08002fc8                . = ALIGN (0x4)
+                0x08002fc8                _etext = .
+
+.vfp11_veneer   0x08002fc8        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x08002fc8        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x08002fc8        0x0
+ .iplt          0x00000000        0x0 e:/program files/truestudio for arm 5.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/armv7-m/crtbegin.o
+
+.rodata         0x08002fc8       0xc4
+                0x08002fc8                . = ALIGN (0x4)
+ *(.rodata)
+ .rodata        0x08002fc8        0xc src\main.o
+ *(.rodata*)
+ .rodata.Virtual_Com_Port_DeviceDescriptor
+                0x08002fd4       0x14 src\usb_desc.o
+                0x08002fd4                Virtual_Com_Port_DeviceDescriptor
+ .rodata.Virtual_Com_Port_ConfigDescriptor
+                0x08002fe8       0x44 src\usb_desc.o
+                0x08002fe8                Virtual_Com_Port_ConfigDescriptor
+ .rodata.Virtual_Com_Port_StringLangID
+                0x0800302c        0x4 src\usb_desc.o
+                0x0800302c                Virtual_Com_Port_StringLangID
+ .rodata.Virtual_Com_Port_StringVendor
+                0x08003030       0x28 src\usb_desc.o
+                0x08003030                Virtual_Com_Port_StringVendor
+ .rodata.Virtual_Com_Port_StringProduct
+                0x08003058       0x34 src\usb_desc.o
+                0x08003058                Virtual_Com_Port_StringProduct
+                0x0800308c                . = ALIGN (0x4)
+
+.rel.dyn        0x0800308c        0x0
+ .rel.iplt      0x00000000        0x0 e:/program files/truestudio for arm 5.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/armv7-m/crtbegin.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x0800308c        0x0
+                0x0800308c                __exidx_start = .
+ *(.ARM.exidx*)
+                0x0800308c                __exidx_end = .
+
+.preinit_array  0x0800308c        0x0
+                0x0800308c                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array*)
+                0x0800308c                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x0800308c        0x4
+                0x0800308c                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array*)
+ .init_array    0x0800308c        0x4 e:/program files/truestudio for arm 5.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/armv7-m/crtbegin.o
+                0x08003090                PROVIDE (__init_array_end, .)
+
+.fini_array     0x08003090        0x4
+                0x08003090                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array*)
+ .fini_array    0x08003090        0x4 e:/program files/truestudio for arm 5.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/armv7-m/crtbegin.o
+                0x08003094                PROVIDE (__fini_array_end, .)
+                0x08003094                _sidata = LOADADDR (.data)
+
+.data           0x20000000       0xf0 load address 0x08003094
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                _sdata = .
+ *(.data)
+ *(.data*)
+ .data.fSuspendEnabled
+                0x20000000        0x1 src\usb_pwr.o
+                0x20000000                fSuspendEnabled
+ *fill*         0x20000001        0x3 
+ .data.linecoding
+                0x20000004        0x8 src\usb_prop.o
+                0x20000004                linecoding
+ .data.Device_Table
+                0x2000000c        0x4 src\usb_prop.o
+                0x2000000c                Device_Table
+ .data.Device_Property
+                0x20000010       0x30 src\usb_prop.o
+                0x20000010                Device_Property
+ .data.User_Standard_Requests
+                0x20000040       0x24 src\usb_prop.o
+                0x20000040                User_Standard_Requests
+ .data.Device_Descriptor
+                0x20000064        0x8 src\usb_prop.o
+                0x20000064                Device_Descriptor
+ .data.Config_Descriptor
+                0x2000006c        0x8 src\usb_prop.o
+                0x2000006c                Config_Descriptor
+ .data.String_Descriptor
+                0x20000074       0x20 src\usb_prop.o
+                0x20000074                String_Descriptor
+ .data.pEpInt_IN
+                0x20000094       0x1c src\usb_istr.o
+                0x20000094                pEpInt_IN
+ .data.pEpInt_OUT
+                0x200000b0       0x1c src\usb_istr.o
+                0x200000b0                pEpInt_OUT
+ .data.Virtual_Com_Port_StringSerial
+                0x200000cc       0x1c src\usb_desc.o
+                0x200000cc                Virtual_Com_Port_StringSerial
+ .data.packet_sent
+                0x200000e8        0x4 src\main.o
+                0x200000e8                packet_sent
+ .data.packet_receive
+                0x200000ec        0x4 src\main.o
+                0x200000ec                packet_receive
+                0x200000f0                . = ALIGN (0x4)
+                0x200000f0                _edata = .
+
+.igot.plt       0x200000f0        0x0 load address 0x08003184
+ .igot.plt      0x00000000        0x0 e:/program files/truestudio for arm 5.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/armv7-m/crtbegin.o
+
+.co_stack       0x200000f0      0x400 load address 0x08003184
+ .co_stack      0x200000f0      0x400 src\startup_stm32f10x_md.o
+                0x200000f0                pulStack
+                0x200004f0                . = ALIGN (0x4)
+
+.bss            0x200004f0       0xec load address 0x08003584
+                0x200004f0                _sbss = .
+                0x200004f0                __bss_start__ = _sbss
+ *(.bss)
+ .bss           0x200004f0       0x1c e:/program files/truestudio for arm 5.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/armv7-m/crtbegin.o
+ *(.bss*)
+ .bss.bDeviceState
+                0x2000050c        0x4 src\usb_pwr.o
+                0x2000050c                bDeviceState
+ .bss.remotewakeupon
+                0x20000510        0x4 src\usb_pwr.o
+                0x20000510                remotewakeupon
+ .bss.Request   0x20000514        0x1 src\usb_prop.o
+                0x20000514                Request
+ .bss.bIntPackSOF
+                0x20000515        0x1 src\usb_istr.o
+                0x20000515                bIntPackSOF
+ *fill*         0x20000516        0x2 
+ .bss.esof_counter
+                0x20000518        0x4 src\usb_istr.o
+                0x20000518                esof_counter
+ .bss.wCNTR     0x2000051c        0x4 src\usb_istr.o
+                0x2000051c                wCNTR
+ .bss.Data_Mul_MaxPacketSize
+                0x20000520        0x1 src\usb_core.o
+                0x20000520                Data_Mul_MaxPacketSize
+ *(COMMON)
+ *fill*         0x20000521        0x3 
+ COMMON         0x20000524       0x24 src\usb_pwr.o
+                0x20000524                ResumeS
+                0x20000528                EP
+ COMMON         0x20000548        0x2 src\usb_istr.o
+                0x20000548                wIstr
+ COMMON         0x2000054a        0x4 src\usb_int.o
+                0x2000054a                SaveRState
+                0x2000054c                SaveTState
+ *fill*         0x2000054e        0x2 
+ COMMON         0x20000550       0x32 src\usb_init.o
+                0x20000550                SaveState
+                0x20000554                pProperty
+                0x20000558                EPindex
+                0x2000055c                Device_Info
+                0x20000578                pUser_Standard_Requests
+                0x2000057c                pInformation
+                0x20000580                wInterrupt_Mask
+ *fill*         0x20000582        0x2 
+ COMMON         0x20000584        0x4 src\usb_endp.o
+                0x20000584                Receive_length
+ COMMON         0x20000588        0x2 src\usb_core.o
+                0x20000588                StatusInfo
+ *fill*         0x2000058a        0x2 
+ COMMON         0x2000058c       0x50 src\hw_config.o
+                0x2000058c                HSEStartUpStatus
+                0x20000590                Receive_Buffer
+                0x200005d0                EXTI_InitStructure
+                0x200005d8                Send_length
+                0x200005dc                . = ALIGN (0x4)
+                0x200005dc                _ebss = .
+                0x200005dc                __bss_end__ = _ebss
+
+._user_heap_stack
+                0x200005dc      0x100 load address 0x08003584
+                0x200005dc                . = ALIGN (0x4)
+                0x200005dc                PROVIDE (end, .)
+                0x200005dc                PROVIDE (_end, .)
+                0x200005dc                . = (. + _Min_Heap_Size)
+                0x200006dc                . = (. + _Min_Stack_Size)
+ *fill*         0x200005dc      0x100 
+                0x200006dc                . = ALIGN (0x4)
+
+.memory_b1_text
+ *(.mb1text)
+ *(.mb1text*)
+ *(.mb1rodata)
+ *(.mb1rodata*)
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+
+.ARM.attributes
+                0x00000000       0x2b
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x1d e:/program files/truestudio for arm 5.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/armv7-m/crti.o
+ .ARM.attributes
+                0x0000001d       0x2d e:/program files/truestudio for arm 5.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/armv7-m/crtbegin.o
+ .ARM.attributes
+                0x0000004a       0x33 src\usb_sil.o
+ .ARM.attributes
+                0x0000007d       0x33 src\usb_regs.o
+ .ARM.attributes
+                0x000000b0       0x33 src\usb_pwr.o
+ .ARM.attributes
+                0x000000e3       0x33 src\usb_prop.o
+ .ARM.attributes
+                0x00000116       0x33 src\usb_mem.o
+ .ARM.attributes
+                0x00000149       0x33 src\usb_istr.o
+ .ARM.attributes
+                0x0000017c       0x33 src\usb_int.o
+ .ARM.attributes
+                0x000001af       0x33 src\usb_init.o
+ .ARM.attributes
+                0x000001e2       0x33 src\usb_endp.o
+ .ARM.attributes
+                0x00000215       0x33 src\usb_desc.o
+ .ARM.attributes
+                0x00000248       0x33 src\usb_core.o
+ .ARM.attributes
+                0x0000027b       0x33 src\system_stm32f10x.o
+ .ARM.attributes
+                0x000002ae       0x33 src\stm32f10x_rcc.o
+ .ARM.attributes
+                0x000002e1       0x33 src\stm32f10x_gpio.o
+ .ARM.attributes
+                0x00000314       0x33 src\stm32f10x_exti.o
+ .ARM.attributes
+                0x00000347       0x33 src\stm32_it.o
+ .ARM.attributes
+                0x0000037a       0x33 src\startup_stm32f10x_md.o
+ .ARM.attributes
+                0x000003ad       0x33 src\misc.o
+ .ARM.attributes
+                0x000003e0       0x33 src\main.o
+ .ARM.attributes
+                0x00000413       0x33 src\hw_config.o
+ .ARM.attributes
+                0x00000446       0x1d e:/program files/truestudio for arm 5.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/armv7-m/crtn.o
+OUTPUT(UsbDevice.elf elf32-littlearm)
+
+.debug_info     0x00000000     0x5f34
+ .debug_info    0x00000000      0x18a src\usb_sil.o
+ .debug_info    0x0000018a      0xcab src\usb_regs.o
+ .debug_info    0x00000e35      0x51c src\usb_pwr.o
+ .debug_info    0x00001351      0x827 src\usb_prop.o
+ .debug_info    0x00001b78      0x1d6 src\usb_mem.o
+ .debug_info    0x00001d4e      0x353 src\usb_istr.o
+ .debug_info    0x000020a1      0x1f7 src\usb_int.o
+ .debug_info    0x00002298      0x454 src\usb_init.o
+ .debug_info    0x000026ec      0x134 src\usb_endp.o
+ .debug_info    0x00002820      0x187 src\usb_desc.o
+ .debug_info    0x000029a7      0xb62 src\usb_core.o
+ .debug_info    0x00003509      0x47d src\system_stm32f10x.o
+ .debug_info    0x00003986      0x891 src\stm32f10x_rcc.o
+ .debug_info    0x00004217      0x6eb src\stm32f10x_gpio.o
+ .debug_info    0x00004902      0x345 src\stm32f10x_exti.o
+ .debug_info    0x00004c47      0x16b src\stm32_it.o
+ .debug_info    0x00004db2       0xed src\startup_stm32f10x_md.o
+ .debug_info    0x00004e9f      0x541 src\misc.o
+ .debug_info    0x000053e0      0x358 src\main.o
+ .debug_info    0x00005738      0x7fc src\hw_config.o
+
+.debug_abbrev   0x00000000     0x1a01
+ .debug_abbrev  0x00000000       0xbd src\usb_sil.o
+ .debug_abbrev  0x000000bd      0x16f src\usb_regs.o
+ .debug_abbrev  0x0000022c      0x1ff src\usb_pwr.o
+ .debug_abbrev  0x0000042b      0x208 src\usb_prop.o
+ .debug_abbrev  0x00000633       0x9f src\usb_mem.o
+ .debug_abbrev  0x000006d2      0x118 src\usb_istr.o
+ .debug_abbrev  0x000007ea       0xd0 src\usb_int.o
+ .debug_abbrev  0x000008ba      0x120 src\usb_init.o
+ .debug_abbrev  0x000009da       0xb3 src\usb_endp.o
+ .debug_abbrev  0x00000a8d       0x75 src\usb_desc.o
+ .debug_abbrev  0x00000b02      0x292 src\usb_core.o
+ .debug_abbrev  0x00000d94      0x14e src\system_stm32f10x.o
+ .debug_abbrev  0x00000ee2      0x1bc src\stm32f10x_rcc.o
+ .debug_abbrev  0x0000109e      0x1ca src\stm32f10x_gpio.o
+ .debug_abbrev  0x00001268      0x153 src\stm32f10x_exti.o
+ .debug_abbrev  0x000013bb       0x7f src\stm32_it.o
+ .debug_abbrev  0x0000143a       0xa9 src\startup_stm32f10x_md.o
+ .debug_abbrev  0x000014e3      0x147 src\misc.o
+ .debug_abbrev  0x0000162a      0x16f src\main.o
+ .debug_abbrev  0x00001799      0x268 src\hw_config.o
+
+.debug_aranges  0x00000000      0x820
+ .debug_aranges
+                0x00000000       0x30 src\usb_sil.o
+ .debug_aranges
+                0x00000030      0x1f0 src\usb_regs.o
+ .debug_aranges
+                0x00000220       0x40 src\usb_pwr.o
+ .debug_aranges
+                0x00000260       0x88 src\usb_prop.o
+ .debug_aranges
+                0x000002e8       0x28 src\usb_mem.o
+ .debug_aranges
+                0x00000310       0x20 src\usb_istr.o
+ .debug_aranges
+                0x00000330       0x28 src\usb_int.o
+ .debug_aranges
+                0x00000358       0x20 src\usb_init.o
+ .debug_aranges
+                0x00000378       0x28 src\usb_endp.o
+ .debug_aranges
+                0x000003a0       0x18 src\usb_desc.o
+ .debug_aranges
+                0x000003b8       0xb0 src\usb_core.o
+ .debug_aranges
+                0x00000468       0x38 src\system_stm32f10x.o
+ .debug_aranges
+                0x000004a0      0x118 src\stm32f10x_rcc.o
+ .debug_aranges
+                0x000005b8       0xa8 src\stm32f10x_gpio.o
+ .debug_aranges
+                0x00000660       0x58 src\stm32f10x_exti.o
+ .debug_aranges
+                0x000006b8       0x70 src\stm32_it.o
+ .debug_aranges
+                0x00000728       0x28 src\startup_stm32f10x_md.o
+ .debug_aranges
+                0x00000750       0x40 src\misc.o
+ .debug_aranges
+                0x00000790       0x28 src\main.o
+ .debug_aranges
+                0x000007b8       0x68 src\hw_config.o
+
+.debug_ranges   0x00000000      0x6f0
+ .debug_ranges  0x00000000       0x20 src\usb_sil.o
+ .debug_ranges  0x00000020      0x1e0 src\usb_regs.o
+ .debug_ranges  0x00000200       0x30 src\usb_pwr.o
+ .debug_ranges  0x00000230       0x78 src\usb_prop.o
+ .debug_ranges  0x000002a8       0x18 src\usb_mem.o
+ .debug_ranges  0x000002c0       0x10 src\usb_istr.o
+ .debug_ranges  0x000002d0       0x18 src\usb_int.o
+ .debug_ranges  0x000002e8       0x10 src\usb_init.o
+ .debug_ranges  0x000002f8       0x18 src\usb_endp.o
+ .debug_ranges  0x00000310       0xb8 src\usb_core.o
+ .debug_ranges  0x000003c8       0x28 src\system_stm32f10x.o
+ .debug_ranges  0x000003f0      0x108 src\stm32f10x_rcc.o
+ .debug_ranges  0x000004f8       0x98 src\stm32f10x_gpio.o
+ .debug_ranges  0x00000590       0x48 src\stm32f10x_exti.o
+ .debug_ranges  0x000005d8       0x60 src\stm32_it.o
+ .debug_ranges  0x00000638       0x18 src\startup_stm32f10x_md.o
+ .debug_ranges  0x00000650       0x30 src\misc.o
+ .debug_ranges  0x00000680       0x18 src\main.o
+ .debug_ranges  0x00000698       0x58 src\hw_config.o
+
+.debug_line     0x00000000     0x2b26
+ .debug_line    0x00000000      0x14a src\usb_sil.o
+ .debug_line    0x0000014a      0x638 src\usb_regs.o
+ .debug_line    0x00000782      0x234 src\usb_pwr.o
+ .debug_line    0x000009b6      0x28c src\usb_prop.o
+ .debug_line    0x00000c42      0x16a src\usb_mem.o
+ .debug_line    0x00000dac      0x19f src\usb_istr.o
+ .debug_line    0x00000f4b      0x20e src\usb_int.o
+ .debug_line    0x00001159      0x124 src\usb_init.o
+ .debug_line    0x0000127d      0x125 src\usb_endp.o
+ .debug_line    0x000013a2      0x100 src\usb_desc.o
+ .debug_line    0x000014a2      0x461 src\usb_core.o
+ .debug_line    0x00001903      0x1b6 src\system_stm32f10x.o
+ .debug_line    0x00001ab9      0x3f9 src\stm32f10x_rcc.o
+ .debug_line    0x00001eb2      0x2eb src\stm32f10x_gpio.o
+ .debug_line    0x0000219d      0x1e1 src\stm32f10x_exti.o
+ .debug_line    0x0000237e      0x1cc src\stm32_it.o
+ .debug_line    0x0000254a       0x71 src\startup_stm32f10x_md.o
+ .debug_line    0x000025bb      0x181 src\misc.o
+ .debug_line    0x0000273c      0x18c src\main.o
+ .debug_line    0x000028c8      0x25e src\hw_config.o
+
+.debug_str      0x00000000     0x24a0
+ .debug_str     0x00000000      0x1c7 src\usb_sil.o
+                                0x21d (size before relaxing)
+ .debug_str     0x000001c7      0x3de src\usb_regs.o
+                                0x597 (size before relaxing)
+ .debug_str     0x000005a5      0x228 src\usb_pwr.o
+                                0x401 (size before relaxing)
+ .debug_str     0x000007cd      0x63f src\usb_prop.o
+                                0x96d (size before relaxing)
+ .debug_str     0x00000e0c       0x69 src\usb_mem.o
+                                0x20f (size before relaxing)
+ .debug_str     0x00000e75       0x4f src\usb_istr.o
+                                0x3d0 (size before relaxing)
+ .debug_str     0x00000ec4       0x44 src\usb_int.o
+                                0x20e (size before relaxing)
+ .debug_str     0x00000f08       0x47 src\usb_init.o
+                                0x54f (size before relaxing)
+ .debug_str     0x00000f4f       0x6c src\usb_endp.o
+                                0x1fe (size before relaxing)
+ .debug_str     0x00000fbb       0x12 src\usb_desc.o
+                                0x24d (size before relaxing)
+ .debug_str     0x00000fcd      0x3e8 src\usb_core.o
+                                0xa7b (size before relaxing)
+ .debug_str     0x000013b5       0xf5 src\system_stm32f10x.o
+                                0x312 (size before relaxing)
+ .debug_str     0x000014aa      0x3d3 src\stm32f10x_rcc.o
+                                0x63c (size before relaxing)
+ .debug_str     0x0000187d      0x352 src\stm32f10x_gpio.o
+                                0x53b (size before relaxing)
+ .debug_str     0x00001bcf      0x1a8 src\stm32f10x_exti.o
+                                0x36b (size before relaxing)
+ .debug_str     0x00001d77       0xd2 src\stm32_it.o
+                                0x252 (size before relaxing)
+ .debug_str     0x00001e49       0x7f src\startup_stm32f10x_md.o
+                                0x15a (size before relaxing)
+ .debug_str     0x00001ec8      0x1aa src\misc.o
+                                0x3e0 (size before relaxing)
+ .debug_str     0x00002072       0x43 src\main.o
+                                0x3da (size before relaxing)
+ .debug_str     0x000020b5      0x3eb src\hw_config.o
+                                0xa22 (size before relaxing)
+
+.comment        0x00000000       0x82
+ .comment       0x00000000       0x82 src\usb_sil.o
+                                 0x83 (size before relaxing)
+ .comment       0x00000000       0x83 src\usb_regs.o
+ .comment       0x00000000       0x83 src\usb_pwr.o
+ .comment       0x00000000       0x83 src\usb_prop.o
+ .comment       0x00000000       0x83 src\usb_mem.o
+ .comment       0x00000000       0x83 src\usb_istr.o
+ .comment       0x00000000       0x83 src\usb_int.o
+ .comment       0x00000000       0x83 src\usb_init.o
+ .comment       0x00000000       0x83 src\usb_endp.o
+ .comment       0x00000000       0x83 src\usb_desc.o
+ .comment       0x00000000       0x83 src\usb_core.o
+ .comment       0x00000000       0x83 src\system_stm32f10x.o
+ .comment       0x00000000       0x83 src\stm32f10x_rcc.o
+ .comment       0x00000000       0x83 src\stm32f10x_gpio.o
+ .comment       0x00000000       0x83 src\stm32f10x_exti.o
+ .comment       0x00000000       0x83 src\stm32_it.o
+ .comment       0x00000000       0x83 src\startup_stm32f10x_md.o
+ .comment       0x00000000       0x83 src\misc.o
+ .comment       0x00000000       0x83 src\main.o
+ .comment       0x00000000       0x83 src\hw_config.o
+
+.debug_frame    0x00000000     0x1750
+ .debug_frame   0x00000000       0x68 src\usb_sil.o
+ .debug_frame   0x00000068      0x684 src\usb_regs.o
+ .debug_frame   0x000006ec       0xa8 src\usb_pwr.o
+ .debug_frame   0x00000794      0x19c src\usb_prop.o
+ .debug_frame   0x00000930       0x48 src\usb_mem.o
+ .debug_frame   0x00000978       0x30 src\usb_istr.o
+ .debug_frame   0x000009a8       0x50 src\usb_int.o
+ .debug_frame   0x000009f8       0x2c src\usb_init.o
+ .debug_frame   0x00000a24       0x44 src\usb_endp.o
+ .debug_frame   0x00000a68      0x254 src\usb_core.o
+ .debug_frame   0x00000cbc       0x80 src\system_stm32f10x.o
+ .debug_frame   0x00000d3c      0x388 src\stm32f10x_rcc.o
+ .debug_frame   0x000010c4      0x210 src\stm32f10x_gpio.o
+ .debug_frame   0x000012d4       0xec src\stm32f10x_exti.o
+ .debug_frame   0x000013c0      0x120 src\stm32_it.o
+ .debug_frame   0x000014e0       0x48 src\startup_stm32f10x_md.o
+ .debug_frame   0x00001528       0x9c src\misc.o
+ .debug_frame   0x000015c4       0x50 src\main.o
+ .debug_frame   0x00001614      0x13c src\hw_config.o
+
+Cross Reference Table
+
+Symbol                                            File
+ADC1_2_IRQHandler                                 src\startup_stm32f10x_md.o
+AHBPrescTable                                     src\system_stm32f10x.o
+BusFault_Handler                                  src\stm32_it.o
+ByteSwap                                          src\usb_regs.o
+                                                  src\usb_core.o
+CAN1_RX1_IRQHandler                               src\startup_stm32f10x_md.o
+CAN1_SCE_IRQHandler                               src\startup_stm32f10x_md.o
+CDC_Receive_DATA                                  src\hw_config.o
+                                                  src\main.o
+CDC_Send_DATA                                     src\hw_config.o
+                                                  src\main.o
+CTR_HP                                            src\usb_int.o
+CTR_LP                                            src\usb_int.o
+                                                  src\usb_istr.o
+ClearDTOG_RX                                      src\usb_regs.o
+                                                  src\usb_core.o
+ClearDTOG_TX                                      src\usb_regs.o
+                                                  src\usb_core.o
+ClearEPDoubleBuff                                 src\usb_regs.o
+ClearEP_CTR_RX                                    src\usb_regs.o
+ClearEP_CTR_TX                                    src\usb_regs.o
+ClearEP_KIND                                      src\usb_regs.o
+Clear_Status_Out                                  src\usb_regs.o
+                                                  src\usb_prop.o
+Config_Descriptor                                 src\usb_prop.o
+DMA1_Channel1_IRQHandler                          src\startup_stm32f10x_md.o
+DMA1_Channel2_IRQHandler                          src\startup_stm32f10x_md.o
+DMA1_Channel3_IRQHandler                          src\startup_stm32f10x_md.o
+DMA1_Channel4_IRQHandler                          src\startup_stm32f10x_md.o
+DMA1_Channel5_IRQHandler                          src\startup_stm32f10x_md.o
+DMA1_Channel6_IRQHandler                          src\startup_stm32f10x_md.o
+DMA1_Channel7_IRQHandler                          src\startup_stm32f10x_md.o
+Data_Mul_MaxPacketSize                            src\usb_core.o
+DebugMon_Handler                                  src\stm32_it.o
+Default_Reset_Handler                             src\startup_stm32f10x_md.o
+Device_Descriptor                                 src\usb_prop.o
+Device_Info                                       src\hw_config.o
+                                                  src\usb_init.o
+                                                  src\usb_prop.o
+Device_Property                                   src\usb_prop.o
+                                                  src\usb_core.o
+                                                  src\usb_init.o
+                                                  src\usb_istr.o
+Device_Table                                      src\usb_prop.o
+                                                  src\usb_core.o
+EP                                                src\usb_pwr.o
+EP1_IN_Callback                                   src\usb_endp.o
+                                                  src\usb_istr.o
+EP3_OUT_Callback                                  src\usb_endp.o
+                                                  src\usb_istr.o
+EPindex                                           src\usb_init.o
+                                                  src\usb_int.o
+EXTI0_IRQHandler                                  src\startup_stm32f10x_md.o
+EXTI15_10_IRQHandler                              src\startup_stm32f10x_md.o
+EXTI1_IRQHandler                                  src\startup_stm32f10x_md.o
+EXTI2_IRQHandler                                  src\startup_stm32f10x_md.o
+EXTI3_IRQHandler                                  src\startup_stm32f10x_md.o
+EXTI4_IRQHandler                                  src\startup_stm32f10x_md.o
+EXTI9_5_IRQHandler                                src\startup_stm32f10x_md.o
+EXTI_ClearFlag                                    src\stm32f10x_exti.o
+EXTI_ClearITPendingBit                            src\stm32f10x_exti.o
+                                                  src\hw_config.o
+                                                  src\stm32_it.o
+EXTI_DeInit                                       src\stm32f10x_exti.o
+EXTI_GenerateSWInterrupt                          src\stm32f10x_exti.o
+EXTI_GetFlagStatus                                src\stm32f10x_exti.o
+EXTI_GetITStatus                                  src\stm32f10x_exti.o
+EXTI_Init                                         src\stm32f10x_exti.o
+                                                  src\hw_config.o
+EXTI_InitStructure                                src\hw_config.o
+EXTI_StructInit                                   src\stm32f10x_exti.o
+Enter_LowPowerMode                                src\hw_config.o
+FLASH_IRQHandler                                  src\startup_stm32f10x_md.o
+FreeUserBuffer                                    src\usb_regs.o
+GPIO_AFIODeInit                                   src\stm32f10x_gpio.o
+GPIO_DeInit                                       src\stm32f10x_gpio.o
+GPIO_ETH_MediaInterfaceConfig                     src\stm32f10x_gpio.o
+GPIO_EXTILineConfig                               src\stm32f10x_gpio.o
+GPIO_EventOutputCmd                               src\stm32f10x_gpio.o
+GPIO_EventOutputConfig                            src\stm32f10x_gpio.o
+GPIO_Init                                         src\stm32f10x_gpio.o
+                                                  src\hw_config.o
+                                                  src\main.o
+GPIO_PinLockConfig                                src\stm32f10x_gpio.o
+GPIO_PinRemapConfig                               src\stm32f10x_gpio.o
+GPIO_ReadInputData                                src\stm32f10x_gpio.o
+GPIO_ReadInputDataBit                             src\stm32f10x_gpio.o
+GPIO_ReadOutputData                               src\stm32f10x_gpio.o
+GPIO_ReadOutputDataBit                            src\stm32f10x_gpio.o
+GPIO_ResetBits                                    src\stm32f10x_gpio.o
+                                                  src\hw_config.o
+                                                  src\main.o
+GPIO_SetBits                                      src\stm32f10x_gpio.o
+                                                  src\hw_config.o
+                                                  src\main.o
+GPIO_StructInit                                   src\stm32f10x_gpio.o
+GPIO_Write                                        src\stm32f10x_gpio.o
+GPIO_WriteBit                                     src\stm32f10x_gpio.o
+GetBTABLE                                         src\usb_regs.o
+GetCNTR                                           src\usb_regs.o
+GetDADDR                                          src\usb_regs.o
+GetENDPOINT                                       src\usb_regs.o
+GetEPAddress                                      src\usb_regs.o
+GetEPDblBuf0Addr                                  src\usb_regs.o
+GetEPDblBuf0Count                                 src\usb_regs.o
+GetEPDblBuf1Addr                                  src\usb_regs.o
+GetEPDblBuf1Count                                 src\usb_regs.o
+GetEPDblBufDir                                    src\usb_regs.o
+GetEPRxAddr                                       src\usb_regs.o
+                                                  src\usb_core.o
+                                                  src\usb_sil.o
+GetEPRxCount                                      src\usb_regs.o
+                                                  src\usb_endp.o
+                                                  src\usb_sil.o
+GetEPRxStatus                                     src\usb_regs.o
+GetEPTxAddr                                       src\usb_regs.o
+                                                  src\usb_core.o
+                                                  src\usb_sil.o
+GetEPTxCount                                      src\usb_regs.o
+GetEPTxStatus                                     src\usb_regs.o
+GetEPType                                         src\usb_regs.o
+GetFNR                                            src\usb_regs.o
+GetISTR                                           src\usb_regs.o
+GetRxStallStatus                                  src\usb_regs.o
+GetTxStallStatus                                  src\usb_regs.o
+Get_SerialNum                                     src\hw_config.o
+                                                  src\usb_prop.o
+HSEStartUpStatus                                  src\hw_config.o
+HardFault_Handler                                 src\stm32_it.o
+I2C1_ER_IRQHandler                                src\startup_stm32f10x_md.o
+I2C1_EV_IRQHandler                                src\startup_stm32f10x_md.o
+I2C2_ER_IRQHandler                                src\startup_stm32f10x_md.o
+I2C2_EV_IRQHandler                                src\startup_stm32f10x_md.o
+In0_Process                                       src\usb_core.o
+                                                  src\usb_int.o
+Leave_LowPowerMode                                src\hw_config.o
+                                                  src\usb_pwr.o
+MemManage_Handler                                 src\stm32_it.o
+NMI_Handler                                       src\stm32_it.o
+NOP_Process                                       src\usb_core.o
+                                                  src\usb_istr.o
+                                                  src\usb_prop.o
+NVIC_Init                                         src\misc.o
+                                                  src\hw_config.o
+NVIC_PriorityGroupConfig                          src\misc.o
+                                                  src\hw_config.o
+NVIC_SetVectorTable                               src\misc.o
+NVIC_SystemLPConfig                               src\misc.o
+Out0_Process                                      src\usb_core.o
+                                                  src\usb_int.o
+PMAToUserBufferCopy                               src\usb_mem.o
+                                                  src\usb_core.o
+                                                  src\usb_endp.o
+                                                  src\usb_sil.o
+PVD_IRQHandler                                    src\startup_stm32f10x_md.o
+PWR_BackupAccessCmd                               src\stm32f10x_pwr.o
+PWR_ClearFlag                                     src\stm32f10x_pwr.o
+PWR_DeInit                                        src\stm32f10x_pwr.o
+PWR_EnterSTANDBYMode                              src\stm32f10x_pwr.o
+PWR_EnterSTOPMode                                 src\stm32f10x_pwr.o
+PWR_GetFlagStatus                                 src\stm32f10x_pwr.o
+PWR_PVDCmd                                        src\stm32f10x_pwr.o
+PWR_PVDLevelConfig                                src\stm32f10x_pwr.o
+PWR_WakeUpPinCmd                                  src\stm32f10x_pwr.o
+PendSV_Handler                                    src\stm32_it.o
+Post0_Process                                     src\usb_core.o
+PowerOff                                          src\usb_pwr.o
+PowerOn                                           src\usb_pwr.o
+                                                  src\usb_prop.o
+RCC_ADCCLKConfig                                  src\stm32f10x_rcc.o
+RCC_AHBPeriphClockCmd                             src\stm32f10x_rcc.o
+RCC_APB1PeriphClockCmd                            src\stm32f10x_rcc.o
+                                                  src\hw_config.o
+RCC_APB1PeriphResetCmd                            src\stm32f10x_rcc.o
+                                                  src\stm32f10x_pwr.o
+RCC_APB2PeriphClockCmd                            src\stm32f10x_rcc.o
+                                                  src\hw_config.o
+                                                  src\main.o
+RCC_APB2PeriphResetCmd                            src\stm32f10x_rcc.o
+                                                  src\stm32f10x_gpio.o
+RCC_AdjustHSICalibrationValue                     src\stm32f10x_rcc.o
+RCC_BackupResetCmd                                src\stm32f10x_rcc.o
+RCC_ClearFlag                                     src\stm32f10x_rcc.o
+RCC_ClearITPendingBit                             src\stm32f10x_rcc.o
+RCC_ClockSecuritySystemCmd                        src\stm32f10x_rcc.o
+RCC_DeInit                                        src\stm32f10x_rcc.o
+                                                  src\main.o
+RCC_GetClocksFreq                                 src\stm32f10x_rcc.o
+RCC_GetFlagStatus                                 src\stm32f10x_rcc.o
+                                                  src\main.o
+RCC_GetITStatus                                   src\stm32f10x_rcc.o
+RCC_GetSYSCLKSource                               src\stm32f10x_rcc.o
+                                                  src\main.o
+RCC_HCLKConfig                                    src\stm32f10x_rcc.o
+                                                  src\main.o
+RCC_HSEConfig                                     src\stm32f10x_rcc.o
+                                                  src\main.o
+RCC_HSICmd                                        src\stm32f10x_rcc.o
+RCC_IRQHandler                                    src\startup_stm32f10x_md.o
+RCC_ITConfig                                      src\stm32f10x_rcc.o
+RCC_LSEConfig                                     src\stm32f10x_rcc.o
+RCC_LSICmd                                        src\stm32f10x_rcc.o
+RCC_MCOConfig                                     src\stm32f10x_rcc.o
+RCC_PCLK1Config                                   src\stm32f10x_rcc.o
+                                                  src\main.o
+RCC_PCLK2Config                                   src\stm32f10x_rcc.o
+                                                  src\main.o
+RCC_PLLCmd                                        src\stm32f10x_rcc.o
+                                                  src\main.o
+RCC_PLLConfig                                     src\stm32f10x_rcc.o
+                                                  src\main.o
+RCC_RTCCLKCmd                                     src\stm32f10x_rcc.o
+RCC_RTCCLKConfig                                  src\stm32f10x_rcc.o
+RCC_SYSCLKConfig                                  src\stm32f10x_rcc.o
+                                                  src\main.o
+RCC_USBCLKConfig                                  src\stm32f10x_rcc.o
+                                                  src\hw_config.o
+RCC_WaitForHSEStartUp                             src\stm32f10x_rcc.o
+                                                  src\main.o
+RTCAlarm_IRQHandler                               src\startup_stm32f10x_md.o
+RTC_IRQHandler                                    src\startup_stm32f10x_md.o
+Receive_Buffer                                    src\hw_config.o
+                                                  src\main.o
+                                                  src\usb_endp.o
+Receive_length                                    src\main.o
+                                                  src\usb_endp.o
+Request                                           src\usb_prop.o
+Reset_Handler                                     src\startup_stm32f10x_md.o
+Resume                                            src\usb_pwr.o
+                                                  src\usb_istr.o
+ResumeS                                           src\usb_pwr.o
+Resume_Init                                       src\usb_pwr.o
+SPI1_IRQHandler                                   src\startup_stm32f10x_md.o
+SPI2_IRQHandler                                   src\startup_stm32f10x_md.o
+SVC_Handler                                       src\stm32_it.o
+SaveRState                                        src\usb_core.o
+                                                  src\usb_int.o
+SaveState                                         src\usb_init.o
+SaveTState                                        src\usb_core.o
+                                                  src\usb_int.o
+Send_Buffer                                       src\main.o
+Send_length                                       src\hw_config.o
+SetBTABLE                                         src\usb_regs.o
+                                                  src\usb_prop.o
+SetCNTR                                           src\usb_regs.o
+SetDADDR                                          src\usb_regs.o
+SetDeviceAddress                                  src\usb_core.o
+                                                  src\usb_prop.o
+SetDouBleBuffEPStall                              src\usb_regs.o
+SetENDPOINT                                       src\usb_regs.o
+SetEPAddress                                      src\usb_regs.o
+SetEPCountRxReg                                   src\usb_regs.o
+SetEPDblBuf0Addr                                  src\usb_regs.o
+SetEPDblBuf0Count                                 src\usb_regs.o
+SetEPDblBuf1Addr                                  src\usb_regs.o
+SetEPDblBuf1Count                                 src\usb_regs.o
+SetEPDblBuffAddr                                  src\usb_regs.o
+SetEPDblBuffCount                                 src\usb_regs.o
+SetEPDoubleBuff                                   src\usb_regs.o
+SetEPRxAddr                                       src\usb_regs.o
+                                                  src\usb_prop.o
+SetEPRxCount                                      src\usb_regs.o
+                                                  src\usb_core.o
+                                                  src\usb_prop.o
+SetEPRxStatus                                     src\usb_regs.o
+                                                  src\usb_prop.o
+SetEPRxValid                                      src\usb_regs.o
+                                                  src\hw_config.o
+                                                  src\usb_prop.o
+SetEPTxAddr                                       src\usb_regs.o
+                                                  src\usb_prop.o
+SetEPTxCount                                      src\usb_regs.o
+                                                  src\hw_config.o
+                                                  src\usb_core.o
+                                                  src\usb_sil.o
+SetEPTxStatus                                     src\usb_regs.o
+                                                  src\usb_core.o
+                                                  src\usb_prop.o
+SetEPTxValid                                      src\usb_regs.o
+                                                  src\hw_config.o
+SetEPType                                         src\usb_regs.o
+                                                  src\usb_prop.o
+SetEP_KIND                                        src\usb_regs.o
+SetISTR                                           src\usb_regs.o
+SetSysClockTo72                                   src\main.o
+Set_Status_Out                                    src\usb_regs.o
+Set_System                                        src\hw_config.o
+                                                  src\main.o
+Set_USBClock                                      src\hw_config.o
+                                                  src\main.o
+Setup0_Process                                    src\usb_core.o
+                                                  src\usb_int.o
+Standard_ClearFeature                             src\usb_core.o
+Standard_GetConfiguration                         src\usb_core.o
+Standard_GetDescriptorData                        src\usb_core.o
+                                                  src\usb_prop.o
+Standard_GetInterface                             src\usb_core.o
+Standard_GetStatus                                src\usb_core.o
+Standard_SetConfiguration                         src\usb_core.o
+Standard_SetDeviceFeature                         src\usb_core.o
+Standard_SetEndPointFeature                       src\usb_core.o
+Standard_SetInterface                             src\usb_core.o
+StatusInfo                                        src\usb_core.o
+String_Descriptor                                 src\usb_prop.o
+Suspend                                           src\usb_pwr.o
+                                                  src\usb_istr.o
+SysTick_CLKSourceConfig                           src\misc.o
+SysTick_Handler                                   src\stm32_it.o
+SystemCoreClock                                   src\system_stm32f10x.o
+SystemCoreClockUpdate                             src\system_stm32f10x.o
+SystemInit                                        src\system_stm32f10x.o
+                                                  src\hw_config.o
+                                                  src\startup_stm32f10x_md.o
+TAMPER_IRQHandler                                 src\startup_stm32f10x_md.o
+TIM1_BRK_IRQHandler                               src\startup_stm32f10x_md.o
+TIM1_CC_IRQHandler                                src\startup_stm32f10x_md.o
+TIM1_TRG_COM_IRQHandler                           src\startup_stm32f10x_md.o
+TIM1_UP_IRQHandler                                src\startup_stm32f10x_md.o
+TIM2_IRQHandler                                   src\startup_stm32f10x_md.o
+TIM3_IRQHandler                                   src\startup_stm32f10x_md.o
+TIM4_IRQHandler                                   src\startup_stm32f10x_md.o
+ToWord                                            src\usb_regs.o
+ToggleDTOG_RX                                     src\usb_regs.o
+ToggleDTOG_TX                                     src\usb_regs.o
+USART1_IRQHandler                                 src\startup_stm32f10x_md.o
+USART2_IRQHandler                                 src\startup_stm32f10x_md.o
+USART3_IRQHandler                                 src\startup_stm32f10x_md.o
+USBWakeUp_IRQHandler                              src\stm32_it.o
+USB_Cable_Config                                  src\hw_config.o
+                                                  src\usb_pwr.o
+USB_HP_CAN1_TX_IRQHandler                         src\startup_stm32f10x_md.o
+USB_Init                                          src\usb_init.o
+                                                  src\main.o
+USB_Interrupts_Config                             src\hw_config.o
+                                                  src\main.o
+USB_Istr                                          src\usb_istr.o
+                                                  src\stm32_it.o
+USB_LP_CAN1_RX0_IRQHandler                        src\stm32_it.o
+USB_SIL_Init                                      src\usb_sil.o
+                                                  src\usb_prop.o
+USB_SIL_Read                                      src\usb_sil.o
+USB_SIL_Write                                     src\usb_sil.o
+UsageFault_Handler                                src\stm32_it.o
+UserToPMABufferCopy                               src\usb_mem.o
+                                                  src\hw_config.o
+                                                  src\usb_core.o
+                                                  src\usb_sil.o
+User_Standard_Requests                            src\usb_prop.o
+                                                  src\usb_init.o
+Virtual_Com_Port_ConfigDescriptor                 src\usb_desc.o
+                                                  src\usb_prop.o
+Virtual_Com_Port_Data_Setup                       src\usb_prop.o
+Virtual_Com_Port_DeviceDescriptor                 src\usb_desc.o
+                                                  src\usb_prop.o
+Virtual_Com_Port_GetConfigDescriptor              src\usb_prop.o
+Virtual_Com_Port_GetDeviceDescriptor              src\usb_prop.o
+Virtual_Com_Port_GetLineCoding                    src\usb_prop.o
+Virtual_Com_Port_GetStringDescriptor              src\usb_prop.o
+Virtual_Com_Port_Get_Interface_Setting            src\usb_prop.o
+Virtual_Com_Port_NoData_Setup                     src\usb_prop.o
+Virtual_Com_Port_Reset                            src\usb_prop.o
+Virtual_Com_Port_SetConfiguration                 src\usb_prop.o
+Virtual_Com_Port_SetDeviceAddress                 src\usb_prop.o
+Virtual_Com_Port_SetLineCoding                    src\usb_prop.o
+Virtual_Com_Port_Status_In                        src\usb_prop.o
+Virtual_Com_Port_Status_Out                       src\usb_prop.o
+Virtual_Com_Port_StringLangID                     src\usb_desc.o
+                                                  src\usb_prop.o
+Virtual_Com_Port_StringProduct                    src\usb_desc.o
+                                                  src\usb_prop.o
+Virtual_Com_Port_StringSerial                     src\usb_desc.o
+                                                  src\hw_config.o
+                                                  src\usb_prop.o
+Virtual_Com_Port_StringVendor                     src\usb_desc.o
+                                                  src\usb_prop.o
+Virtual_Com_Port_init                             src\usb_prop.o
+WWDG_IRQHandler                                   src\startup_stm32f10x_md.o
+__deregister_frame_info                           e:/program files/truestudio for arm 5.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/armv7-m/crtbegin.o
+__dso_handle                                      e:/program files/truestudio for arm 5.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/armv7-m/crtbegin.o
+__register_frame_info                             e:/program files/truestudio for arm 5.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/armv7-m/crtbegin.o
+_close                                            src\syscalls.o
+_ebss                                             src\startup_stm32f10x_md.o
+_edata                                            src\startup_stm32f10x_md.o
+_end                                              src\syscalls.o
+_fini                                             e:/program files/truestudio for arm 5.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/armv7-m/crti.o
+_fstat                                            src\syscalls.o
+_init                                             e:/program files/truestudio for arm 5.4.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.8.3/armv7-m/crti.o
+_isatty                                           src\syscalls.o
+_lseek                                            src\syscalls.o
+_read                                             src\syscalls.o
+_sbrk                                             src\syscalls.o
+_sbss                                             src\startup_stm32f10x_md.o
+_sdata                                            src\startup_stm32f10x_md.o
+_sidata                                           src\startup_stm32f10x_md.o
+_write                                            src\syscalls.o
+abort                                             src\syscalls.o
+bDeviceState                                      src\usb_pwr.o
+                                                  src\hw_config.o
+                                                  src\main.o
+                                                  src\usb_prop.o
+bIntPackSOF                                       src\usb_istr.o
+esof_counter                                      src\usb_istr.o
+fSuspendEnabled                                   src\usb_pwr.o
+                                                  src\usb_istr.o
+g_pfnVectors                                      src\startup_stm32f10x_md.o
+linecoding                                        src\usb_prop.o
+link                                              src\syscalls.o
+main                                              src\main.o
+                                                  src\startup_stm32f10x_md.o
+pEpInt_IN                                         src\usb_istr.o
+                                                  src\usb_int.o
+pEpInt_OUT                                        src\usb_istr.o
+                                                  src\usb_int.o
+pInformation                                      src\usb_core.o
+                                                  src\usb_init.o
+                                                  src\usb_prop.o
+pProperty                                         src\usb_core.o
+                                                  src\usb_init.o
+pUser_Standard_Requests                           src\usb_core.o
+                                                  src\usb_init.o
+packet_receive                                    src\main.o
+                                                  src\hw_config.o
+                                                  src\usb_endp.o
+packet_sent                                       src\main.o
+                                                  src\hw_config.o
+                                                  src\usb_endp.o
+pulStack                                          src\startup_stm32f10x_md.o
+remotewakeupon                                    src\usb_pwr.o
+wCNTR                                             src\usb_istr.o
+wInterrupt_Mask                                   src\usb_init.o
+                                                  src\usb_istr.o
+                                                  src\usb_pwr.o
+                                                  src\usb_sil.o
+wIstr                                             src\usb_int.o
+                                                  src\usb_istr.o
